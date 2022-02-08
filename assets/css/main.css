@@ -128,7 +128,7 @@ em, i {
   font-style: italic; }
 
 p {
-  font-size: 24px;
+  font-size: 18px;
   margin: 0 0 2em 0; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -148,19 +148,19 @@ h1 {
   line-height: 1.3; }
 
 h2 {
-  font-size: 1.75em; }
+  font-size: 3em; }
 
 h3 {
-  font-size: 1.25em; }
+  font-size: 2em; }
 
 h4 {
-  font-size: 1.1em; }
+  font-size: 1.5em; }
 
 h5 {
-  font-size: 0.9em; }
+  font-size: 1em; }
 
 h6 {
-  font-size: 0.7em; }
+  font-size: .7em; }
 
 @media screen and (max-width: 1680px) {
   h1 {
@@ -992,7 +992,7 @@ section.special, article.special {
 
 header p {
   font-family: "Roboto Slab", serif;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 400;
   letter-spacing: 0.075em;
   margin-top: -0.5em;
