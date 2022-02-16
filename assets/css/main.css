@@ -1213,12 +1213,11 @@ input[type="radio"] + label:before {
 
 /* Image */
 .image {
-  border-radius: 0.375em;
+  border-radius: 0;
   border: 0;
   display: inline-block;
   position: relative; }
   .image img {
-    border-radius: 0.375em;
     display: block; }
   .image.left, .image.right {
     max-width: 40%; }
@@ -2189,6 +2188,8 @@ button,
 
 /* Footer */
 #footer .copyright {
+  position: relative;
+  bottom: 0;
   color: #9fa3a6;
   font-size: 0.9em; }
   #footer .copyright a {
