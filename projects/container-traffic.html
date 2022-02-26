@@ -47,9 +47,59 @@
 									<!-- Section -->
 									<section>
 										<header class="major">
-											<h2>Container Traffic Waves</h2>
+											<h2>Container Traffic Waves 🚢</h2>
 										</header>
+										<p>
+											Working in the e-commerce industry, I had been made aware of the shipping 
+											container shortage cause by Covid-19 in 2021. Being Panamanian, and knowing 
+											that maritime transport is one of the pillars of Panamanian economy, I can't 
+											help but wonder how ports back home are "faring".
+										</p>
+										<p>
+											I was lucky to find this 
+											<a href="https://www.datosabiertos.gob.pa/dataset/amp-movimiento-de-contenedores-en-el-spn-por-tipo-en-teu-diciembre-2021/resource/ce85bf03-f42b-41dc-b34c-14c1b626370c">
+											</a> by the Panamanian Maritime Authority on container traffic, both empty and 
+											full,  measured TEU's (twenty-foot equivalent units) processed every month in 
+											2019 through 2021.
+										</p>
+										<p>
+											After looking at the table for a while and seeing there were only six ports to 
+											track over three years, a bump chart seemed like a good representation. In 
+											addition to how each port ranked among all ports for a time period, I decided 
+											to add another encoding: How each time period compared to others for any given 
+											port by varying the amplitude of the ocean waves 🌊. This required changing the 
+											traditional bump chart so that I wasn't referring to points in time, but ranges 
+											instead.
+										</p>
 
+										<div style="display:flex; justify-content: center;" id="observablehq-viewof-category-d9ef52ea"></div>
+										<div style="display:flex; justify-content: center;" id="observablehq-plot-d9ef52ea"></div>
+										<div style="visibility: hidden" id="observablehq-d3-d9ef52ea"></div>
+										<div style="visibility: hidden" id="observablehq-style-d9ef52ea"></div>
+										<div style="visibility: hidden" id="observablehq-data-d9ef52ea"></div>
+										<div style="visibility: hidden" id="observablehq-quarters-d9ef52ea"></div>
+										<div style="visibility: hidden" id="observablehq-ports-d9ef52ea"></div>
+										<div style="visibility: hidden" id="observablehq-portRank-d9ef52ea"></div>
+										<div style="visibility: hidden" id="observablehq-qRank-d9ef52ea"></div>
+										<div style="visibility: hidden" id="observablehq-qPath-d9ef52ea"></div>
+										
+																			
+										<script type="module">
+										import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+										import define from "https://api.observablehq.com/d/622dda7b234980d1.js?v=3";
+										new Runtime().module(define, name => {
+										  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-d9ef52ea"));
+										  if (name === "d3") return new Inspector(document.querySelector("#observablehq-d3-d9ef52ea"));
+										  if (name === "style") return new Inspector(document.querySelector("#observablehq-style-d9ef52ea"));
+										  if (name === "data") return new Inspector(document.querySelector("#observablehq-data-d9ef52ea"));
+										  if (name === "quarters") return new Inspector(document.querySelector("#observablehq-quarters-d9ef52ea"));
+										  if (name === "ports") return new Inspector(document.querySelector("#observablehq-ports-d9ef52ea"));
+										  if (name === "portRank") return new Inspector(document.querySelector("#observablehq-portRank-d9ef52ea"));
+										  if (name === "qRank") return new Inspector(document.querySelector("#observablehq-qRank-d9ef52ea"));
+										  if (name === "qPath") return new Inspector(document.querySelector("#observablehq-qPath-d9ef52ea"));
+										  if (name === "viewof category") return new Inspector(document.querySelector("#observablehq-viewof-category-d9ef52ea"));
+										});
+										</script>
 									</section>
 								
 								
