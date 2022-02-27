@@ -23,6 +23,10 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+figure img {
+  pointer-events: none;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
@@ -1234,7 +1238,6 @@ input[type="radio"] + label:before {
   display: inline-block;
   position: relative; }
   .image img {
-    pointer-events: none;
     display: block; }
   .image.left, .image.right {
     max-width: 40%; }
