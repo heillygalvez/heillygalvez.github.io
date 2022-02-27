@@ -1234,6 +1234,7 @@ input[type="radio"] + label:before {
   display: inline-block;
   position: relative; }
   .image img {
+    pointer-events: none;
     display: block; }
   .image.left, .image.right {
     max-width: 40%; }
