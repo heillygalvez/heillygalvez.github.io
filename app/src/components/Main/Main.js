@@ -33,10 +33,10 @@ export function Main() {
             <div className={styles.section_wrapper}>
                 <div className={styles.content}>
                     <h1>My work</h1>
-                    <h2>A few of my most recent data viz and front-end projects</h2>
+                    <p>A few of my most recent data viz and front-end projects</p>
                 </div>
                 <div className={styles.projects_container}>
-                    {PROJECTS.map((d, i) => <div key={`project_${i}`} className={styles.project}>
+                    {PROJECTS.map((d, i) => <div key={`project_${i}`} className={styles.project} onClick={() => console.log(d.linkURL)}>
                         <img src={d.imageURL} alt={`Thumbnail for ${d.title}`} />
                         <div className={styles.project_title}>{d.title}</div>
                         <div className={styles.project_description}>{d.description}</div>

@@ -5,13 +5,15 @@
     width: 100%;
     background-color: #ffffff;
     padding: 0 1em;
+    z-index: 2;
+    box-shadow: 0 0.5px 20px var(--purple3);
 
     .section_wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: calc(min(100%, 1200px));
-
+        
     }
 
     .logo_wrapper {
