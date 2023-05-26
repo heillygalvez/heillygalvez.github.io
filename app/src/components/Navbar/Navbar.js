@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../assets/yellow_logo.png"
+import logo from "../../assets/white_logo.png"
 import observable_logo from "../../assets/observable_logo.svg"
 import linkedin_logo from "../../assets/linkedin_logo.svg"
 import github_logo from "../../assets/github_logo.svg"
