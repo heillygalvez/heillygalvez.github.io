@@ -25,22 +25,18 @@
             }
     
             .image_container {
-                display: flex;
-                max-width: 30%;
-                justify-content: center;
-                align-items: center;
-                padding: 0;
-                margin: auto;
+                display: block;
+                max-width:385px;
+                max-height:385px;
+                width: auto;
+                height: auto;
                 border: 10px solid var(--purple2);
                 border-radius: 20px;
                 overflow: hidden;
     
                 img {
-                    display: block;
-                    max-width:385px;
-                    max-height:3855px;
-                    width: auto;
-                    height: auto;
+                    object-fit: cover;
+                    height: 100%;
                 }
     
             }
@@ -103,7 +99,7 @@
 
     .contact {
         width: 100%;
-        background-color: var(--purple-1);
+        background-color: var(--purple1);
 
         .section_wrapper {
             display: flex;
@@ -116,11 +112,16 @@
     
                 iframe {
                     width: 100%;
+                    border: none;
                 }
             }
     
             .content {
                 width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: start;
             }
         }
         
