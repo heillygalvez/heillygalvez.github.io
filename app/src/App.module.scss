@@ -1,6 +1,21 @@
-html, body {
+* {
     box-sizing: border-box;
+    --yellow1: #FFEDA6;
+    --yellow2: #C17559;
+    --yellow3: #7A3300;
+    --purple1: #DDCDEA;
+    --purple2: #AE76BF;
+    --purple3: #735F88;
 }
-.app_Wrapper {
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.app_wrapper {
     display: flex;
+    flex-direction: column;
+    width: 100vw;
 }
