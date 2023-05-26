@@ -6,6 +6,8 @@
     --purple1: #DDCDEA;
     --purple2: #AE76BF;
     --purple3: #735F88;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -18,4 +20,12 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
+
+    section {
+        padding: 2em 3em;
+    }
+
+    section > div {
+        max-width: 1440px;
+    }
 }

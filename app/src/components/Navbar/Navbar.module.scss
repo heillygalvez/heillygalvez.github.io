@@ -5,6 +5,7 @@
     height: 100px;
     width: 100%;
     background-color: var(--yellow1);
+    padding: 0 1em;
 
     .logo_wrapper {
         display: flex;
@@ -18,5 +19,17 @@
     .link_wrapper {
         display: flex;
         justify-content: center;
+
+        li {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0.5em;
+
+            img {
+                height: 40;
+            }
+        }
     }
 }

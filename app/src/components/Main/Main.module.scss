@@ -1,4 +1,92 @@
 .main_wrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
+
+    .banner {
+        display: flex;
+        background-color: #ffffff;
+        width: 100%;
+        justify-content: center;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-self: start;
+        }
+
+        .image_container {
+            display: flex;
+            max-width: 30%;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: auto;
+            border: 10px solid var(--purple2);
+            border-radius: 20px;
+            overflow: hidden;
+
+            img {
+                object-fit: cover;
+                
+            }
+
+        }
+    }
+
+    .work {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--yellow1);
+        width: 100%;
+        align-items: center;
+
+        .content {
+            width: 100%;
+            text-align: start;
+        }
+
+        .projects_container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1em;
+            width: 100%;
+
+            .project {
+                display: flex;
+                flex-direction: column;
+                border-radius: 20px;
+                border: 10px solid var(--yellow2);
+                background-color: #ffffff;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    aspect-ratio: 7/4;
+                    margin-bottom: 1em;
+                }
+
+                .project_title {
+                    font-size: 1.5em;
+                    color: var(--yellow2);
+                    margin: 0 0.667em;
+                }
+
+                .project_description {
+                    font-size: 1em;
+                    color: var(--yellow3);
+                    margin: 1em;
+                    
+                }
+            }
+        }
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--purple-1);
+    }
 }

@@ -7,7 +7,7 @@ import styles from "./Navbar.module.scss"
 
 export function Navbar() {
   return (
-    <div className={styles.navbar_wrapper}>
+    <section className={styles.navbar_wrapper}>
         <div className={styles.logo_wrapper}>
             <img src={logo} alt='Heilly Galvez logo' />
         </div>
@@ -16,6 +16,6 @@ export function Navbar() {
             <li><a href="http://www.linkedin.com/in/heillygalvez"><img src={linkedin_logo} alt='LinkedIn'/></a></li>
             <li><a href="https://github.com/heillygalvez"><img src={github_logo} alt='Github'/></a></li>
         </ul>
-    </div>
+    </section>
   )
 }
