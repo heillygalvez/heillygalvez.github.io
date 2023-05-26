@@ -1,11 +1,18 @@
-.navbar_wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar_wrapper { 
+    display: flex; 
+    justify-content: center;   
     height: 100px;
     width: 100%;
     background-color: var(--yellow1);
     padding: 0 1em;
+
+    .section_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(min(100%, 1200px));
+
+    }
 
     .logo_wrapper {
         display: flex;
