@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d8355c1.css",
-    "main.js": "/static/js/main.1a9bb469.js",
+    "main.css": "/static/css/main.96bb926f.css",
+    "main.js": "/static/js/main.007f9cf6.js",
+    "static/media/glimpse_thumbnail.png": "/static/media/glimpse_thumbnail.4475494d07951bc0142d.png",
+    "static/media/stock_thumbnail.png": "/static/media/stock_thumbnail.d854dc46670b8cff892e.png",
+    "static/media/headshot.png": "/static/media/headshot.af83508030fa6a1bf55b.png",
+    "static/media/port_thumbnail.png": "/static/media/port_thumbnail.7f444477f2de49655cc1.png",
+    "static/media/observable_logo.svg": "/static/media/observable_logo.3183e9e705e9aa01249159c8c148cb3a.svg",
     "index.html": "/index.html",
-    "main.7d8355c1.css.map": "/static/css/main.7d8355c1.css.map",
-    "main.1a9bb469.js.map": "/static/js/main.1a9bb469.js.map"
+    "static/media/github_logo.svg": "/static/media/github_logo.e3153fd996dae6f7daac1e2150a6a6a5.svg",
+    "static/media/linkedin_logo.svg": "/static/media/linkedin_logo.79f6e2157119ebc1b3b1182001e42511.svg",
+    "main.96bb926f.css.map": "/static/css/main.96bb926f.css.map",
+    "main.007f9cf6.js.map": "/static/js/main.007f9cf6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d8355c1.css",
-    "static/js/main.1a9bb469.js"
+    "static/css/main.96bb926f.css",
+    "static/js/main.007f9cf6.js"
   ]
 }
