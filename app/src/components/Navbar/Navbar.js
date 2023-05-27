@@ -13,9 +13,9 @@ export function Navbar() {
                 <img src={logo} alt='Heilly Galvez logo' />
             </div>
             <ul className={styles.link_wrapper}>
-                <li><a href="https://www.observablehq.com/@heillygalvez"><img src={observable_logo} alt='Observable'/></a></li>
-                <li><a href="http://www.linkedin.com/in/heillygalvez"><img src={linkedin_logo} alt='LinkedIn'/></a></li>
-                <li><a href="https://github.com/heillygalvez"><img src={github_logo} alt='Github'/></a></li>
+                <li><a href="https://www.observablehq.com/@heillygalvez" target="_blank"><img src={observable_logo} alt='Observable'/></a></li>
+                <li><a href="http://www.linkedin.com/in/heillygalvez" target="_blank"><img src={linkedin_logo} alt='LinkedIn'/></a></li>
+                <li><a href="https://github.com/heillygalvez" target="_blank"><img src={github_logo} alt='Github'/></a></li>
             </ul>
         </div>
     </nav>
