@@ -17,7 +17,7 @@ export const PROJECTS = [
     },
     {
         title: 'A Glimpse into the Future', 
-        description: 'The World Government Summit released a dataset with predictions fot how the world will change in 7 frontiers from now to 2050 and beyond. Explore a how the predictions relate to each other with this interactive tool.',
+        description: 'The World Government Summit released a dataset with predictions for how the world will change in 7 frontiers from now to 2050 and beyond. Explore how these predictions relate to each other with this interactive tool.',
         imageURL: glimpseThumbnail,
         linkURL: 'https://www.glimpseintothefutureviz.com/'
     }
