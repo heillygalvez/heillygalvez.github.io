@@ -36,7 +36,7 @@ export function Main() {
                     <p>A few of my most recent data viz and front-end projects</p>
                 </div>
                 <div className={styles.projects_container}>
-                    {PROJECTS.map((d, i) => <div key={`project_${i}`} className={styles.project} onClick={() => console.log(d.linkURL)}>
+                    {PROJECTS.map((d, i) => <div key={`project_${i}`} className={styles.project} onClick={() => window.open(d.linkURL)}>
                         <img src={d.imageURL} alt={`Thumbnail for ${d.title}`} />
                         <div className={styles.project_title}>{d.title}</div>
                         <div className={styles.project_description}>{d.description}</div>

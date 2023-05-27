@@ -81,6 +81,11 @@
                     background-color: #ffffff;
                     overflow: hidden;
                     cursor: pointer;
+
+                    &:hover {
+                        box-sizing: content-box;
+                        scale: 1.05;
+                    }
     
                     img {
                         width: 100%;
