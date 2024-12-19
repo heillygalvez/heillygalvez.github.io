@@ -20,8 +20,8 @@ export function Main() {
             <div className={styles.section_wrapper}>
                 <div className={styles.content}>
                     <h1>Hi, I'm Heilly</h1>
-                    <h2>Data viz designer and software engineer</h2>
-                    <p>I use JavaScript and Python to build interactive web tools that make data and the learnings from analyzing it accessible to both technical and non-technical audiences.</p>
+                    <h2>Data analyst, visualization designer, and software engineer</h2>
+                    <p>I use JavaScript and Python to build interactive web tools that make data accessible to both technical and non-technical audiences.</p>
                     <p>From surveys to time-series to the output of machine learning models, I'm passionate about turning information into actionable insights.</p>
                 </div>
             <div className={styles.image_container}>
