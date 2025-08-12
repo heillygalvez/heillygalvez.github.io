@@ -1,15 +1,12 @@
 import React from 'react'
 import headshot from "../../assets/headshot.png"
 import { PROJECTS } from "./data"
-import Lottie from 'react-lottie';
-import * as animationData from '../../assets/mail_lottie.json'
 import styles from "./Main.module.scss"
 
 export function Main() {
     const defaultOptions = {
         loop: true,
         autoplay: true, 
-        animationData: animationData,
         rendererSettings: {
           preserveAspectRatio: 'xMidYMid slice'
         }
@@ -47,7 +44,6 @@ export function Main() {
         <section className={styles.contact}>
             <div className={styles.section_wrapper}>
                 <div className={styles.image_container}>
-                <   Lottie options={defaultOptions} width={'5em'} height={'6em'}/>
                 </div>
                 <div className={styles.content}>
                     <h1>Contact me</h1>

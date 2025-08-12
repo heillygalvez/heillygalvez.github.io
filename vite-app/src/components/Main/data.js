@@ -1,8 +1,15 @@
 import stockThumbnail from "../../assets/stock_thumbnail.png"
 import portThumbnail from "../../assets/port_thumbnail.png"
 import glimpseThumbnail from "../../assets/glimpse_thumbnail.png"
+import rsThumbnail from "../../assets/rs_thumbnail.png"
 
 export const PROJECTS = [
+    {
+        title: 'RenderStitch: Preview and Troubleshoot Amigurumi',
+        description: 'A much needed tool for the crochet design community, RenderStitch is a React app that takes in a crochet pattern as input, and uses D3.js and THREE.js to simulate and render the final form of the plushie.',
+        imageURL: rsThumbnail,
+        linkURL: "https://renderstitch.web.app/"
+    },
     {
         title: 'Safety Stock Mosaic', 
         description: 'An interactive heat map-style visualization to help understand a safety stock optimization model. Never run out of stock? Stay lean on inventory? How to find the sweet spot?',
