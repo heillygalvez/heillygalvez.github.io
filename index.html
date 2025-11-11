@@ -8,81 +8,81 @@
     </head>
     <body>
         <div id="app">
-            <nav className={styles.navbar_wrapper}> <!-- NAV -->
-                <div className={styles.section_wrapper}>
-                    <div className={styles.logo_wrapper}>
-                        <img src={logo} alt='Heilly Galvez logo' />
+            <nav class="navbar_wrapper"> <!-- NAV -->
+                <div class="section_wrapper">
+                    <div class="logo_wrapper">
+                        <img src="assets/white_logo.png" alt='Heilly Galvez logo' />
                     </div>
-                    <ul className={styles.link_wrapper}>
-                        <li><a href="https://www.observablehq.com/@heillygalvez" target="_blank"><img src={observable_logo} alt='Observable'/></a></li>
-                        <li><a href="http://www.linkedin.com/in/heillygalvez" target="_blank"><img src={linkedin_logo} alt='LinkedIn'/></a></li>
-                        <li><a href="https://github.com/heillygalvez" target="_blank"><img src={github_logo} alt='Github'/></a></li>
+                    <ul class="link_wrapper">
+                        <li><a href="https://www.observablehq.com/@heillygalvez" target="_blank"><img src="assets/observable_logo.svg" alt='Observable'/></a></li>
+                        <li><a href="http://www.linkedin.com/in/heillygalvez" target="_blank"><img src="assets/linkedin_logo.svg" alt='LinkedIn'/></a></li>
+                        <li><a href="https://github.com/heillygalvez" target="_blank"><img src="assets/github_logo.svg" alt='Github'/></a></li>
                     </ul>
                 </div>
             </nav>
-            <div className={styles.main_wrapper}> <!-- MAIN -->
-                <section className={styles.banner}>
-                    <div className={styles.section_wrapper}>
-                        <div className={styles.content}>
+            <div class="main_wrapper"> <!-- MAIN -->
+                <section class="banner">
+                    <div class="section_wrapper">
+                        <div class="content">
                             <h1>Hi, I'm Heilly</h1>
                             <h2>Data analyst, visualization designer, and software engineer</h2>
                             <p>I use JavaScript and Python to build interactive web tools that make data accessible to both technical and non-technical audiences.</p>
                             <p>From surveys to time-series to the output of machine learning models, I'm passionate about turning information into actionable insights.</p>
                         </div>
-                    <div className={styles.image_container}>
-                        <img src={headshot} alt='Heilly Galvez'/>
+                    <div class="image_container">
+                        <img src={headshot" alt='Heilly Galvez'/>
                     </div>
                     </div>
                 </section>
-                <section className={styles.work}>
-                    <div className={styles.section_wrapper}>
-                        <div className={styles.content}>
+                <section class="work">
+                    <div class="section_wrapper">
+                        <div class="content">
                             <h1>My work</h1>
                             <p>A few of my most recent data viz and front-end projects</p>
                         </div>
-                        <div className={styles.projects_container}>
-                            <button key="" className={styles.project} href="">
-                                <img src="" alt="Thumbnail for" />
-                                <div className={styles.project_title}>Title</div>
-                                <div className={styles.project_description}>Description</div>
+                        <div class="projects_container">
+                            <button key="render_stitch" class="project" href="https://renderstitch.web.app/">
+                                <img src="assets/rs_thumbnail.png" alt="Thumbnail for Render Stitch" />
+                                <div class="project_title">'RenderStitch: Preview and Troubleshoot Amigurumi'</div>
+                                <div class="project_description">A much needed tool for the crochet design community, RenderStitch is a React app that takes in a crochet pattern as input, and uses D3.js and THREE.js to simulate and render the final form of the plushie.</div>
                             </button>
                         </div>
-                        <div className={styles.projects_container}>
-                            <button key="" className={styles.project} href="">
-                                <img src="" alt="Thumbnail for" />
-                                <div className={styles.project_title}>Title</div>
-                                <div className={styles.project_description}>Description</div>
+                        <div class="projects_container">
+                            <button key="glimpse" class="project" href="https://www.glimpseintothefutureviz.com/">
+                                <img src="assets/glimpse_thumbnail.png" alt="Thumbnail for A Glimpse into the Future" />
+                                <div class="project_title">A Glimpse into the Future</div>
+                                <div class="project_description">Government Summit released a dataset with predictions for how the world will change in 7 frontiers from now to 2050 and beyond. Explore how these predictions relate to each other with this interactive tool.</div>
                             </button>
                         </div>
-                        <div className={styles.projects_container}>
-                            <button key="" className={styles.project} href="">
-                                <img src="" alt="Thumbnail for" />
-                                <div className={styles.project_title}>Title</div>
-                                <div className={styles.project_description}>Description</div>
+                        <div class="projects_container">
+                            <button key="ports" class="project" href='https://observablehq.com/@heillygalvez/container_traffic'>
+                                <img src="assets/port_thumbnail.png" alt="Thumbnail for Container Traffic Waves" />
+                                <div class="project_title">Container Traffic Waves</div>
+                                <div class="project_description">How are Covid-19 and capacity constraints in American ports affecting port operations in Panama? An enhanced bump chart to track the container ports of the isthmus.</div>
                             </button>
                         </div>
-                        <div className={styles.projects_container}>
-                            <button key="" className={styles.project} href="">
-                                <img src="" alt="Thumbnail for" />
-                                <div className={styles.project_title}>Title</div>
-                                <div className={styles.project_description}>Description</div>
+                        <div class="projects_container">
+                            <button key="stock" class="project" href="https://observablehq.com/@heillygalvez/safety-stock">
+                                <img src="assets/stock_thumbnail.png" alt="Thumbnail for Safety Stock Mosaic" />
+                                <div class="project_title">Safety Stock Mosaic</div>
+                                <div class="project_description">An interactive heat map-style visualization to help understand a safety stock optimization model. Never run out of stock? Stay lean on inventory? How to find the sweet spot?</div>
                             </button>
                         </div>
                     </div>
                 </section>
-                <section className={styles.contact}>
-                    <div className={styles.section_wrapper}>
-                        <div className={styles.image_container}>
+                <section class="contact">
+                    <div class="section_wrapper">
+                        <div class="image_container">
                         </div>
-                        <div className={styles.content}>
+                        <div class="content">
                             <h1>Contact me</h1>
-                            <p>For work opportunities, collaborations, or anything data viz-related, please email me at heillygalvez@gmail.com.</p>
+                            <p>For work opportunities, collaborations, or anything data viz-related, email me at heillygalvez@gmail.com.</p>
                         </div>
                     </div>
                 </section>    
             </div>
-            <section className={styles.footer_wrapper}>  <!-- FOOTER -->
-                <div className={styles.section_wrapper}>
+            <section class="footer_wrapper">  <!-- FOOTER -->
+                <div class="section_wrapper">
                     <img src={logo} alt='Logo in purple'/>
                     <span>Heilly Gálvez &copy; 2023.</span>
                 </div>
