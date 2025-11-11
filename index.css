@@ -35,18 +35,17 @@ body {
     }
 }
 
-.app_wrapper {
+#app {
     display: flex;
     flex-direction: column;
     width: 100vw;
 
-    section {
+}
+
+section {
         padding: 2em 3em;
     }
 
-    
-
-}
 
 .navbar_wrapper { 
     display: flex; 
